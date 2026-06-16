@@ -6,7 +6,7 @@ This repository contains the codebase developed to replicate, validate, and anal
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 **Dataset Distillation (DD)** aims to synthesize a tiny, highly informative subset of data capable of training deep networks effectively while drastically lowering memory and computational overhead. 
 
@@ -18,13 +18,13 @@ This project focuses on evaluating MKDT's downstream classification accuracy on 
 
 ---
 
-## 🖥️ Hardware & Infrastructure
+## Hardware & Infrastructure
 * **GPU Accelerator:** All deep learning models and dataset distillation trajectories were accelerated using an **NVIDIA A100-SXM4-40GB GPU** with 40,960 MiB of VRAM.
 * **Frameworks:** The core implementation is built on top of `PyTorch` and `Torchvision`, utilizing CUDA acceleration to efficiently handle the high-throughput matrix computations required for matching knowledge distillation trajectories.
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 ├── MKDT_CIFAR10_train.ipynb  # Training notebook (Teacher-Student KD trajectory generation)
