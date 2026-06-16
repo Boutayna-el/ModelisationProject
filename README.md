@@ -1,6 +1,6 @@
 # MKDT for CIFAR-10: Dataset Distillation via Knowledge Distillation
 
-An empirical evaluation and implementation of the **MKDT** (*Masked Knowledge Distillation Trajectory*) method applied to the CIFAR-10 dataset, based on the ICLR 2025 paper: *"Dataset Distillation via Knowledge Distillation: Towards Efficient Self-Supervised Pre-training of Deep Networks"*.
+An empirical evaluation and implementation of the **MKDT** (*Matching Knowledge Distillation Trajectory*) method applied to the CIFAR-10 dataset, based on the ICLR 2025 paper: *"Dataset Distillation via Knowledge Distillation: Towards Efficient Self-Supervised Pre-training of Deep Networks"*.
 
 This repository contains the codebase developed to replicate, validate, and analyze the performance of MKDT under strict budget constraints (**1% label fraction**).
 
